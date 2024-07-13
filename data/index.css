@@ -1,0 +1,89 @@
+@font-face {
+    font-family: cascmono;
+    src: url('fonts/CascadiaCode.ttf');
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: cascmono;
+    color: white;
+}
+
+#top
+{
+    border: 1px solid white;
+    width: 550px;
+    height: 210px;
+    text-align: center;
+}
+
+#main
+{
+    border: 1px solid white;
+    width: 550px;
+    height: 500px;
+    text-align: center;
+}
+
+#main-abt
+{
+    border: 1px solid white;
+    width: 550px;
+    height: 800px;
+    text-align: center;
+}
+
+#footer p
+{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#newsbox h2, h3
+{
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#spacer
+{
+    height: 5px;
+}
+
+#index-banner
+{
+    width: 480px;
+    height: 150px;
+}
+
+#nav
+{
+    text-align: center;
+}
+
+#navBtn
+{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+#navBtn:hover
+{
+    border: 1px dotted white;
+    background-color: black;
+    color: white;
+}
+
+#navBtn:active
+{
+    border: 1px solid #0077ff;
+    background-color: black;
+    color: #0077ff;
+}
